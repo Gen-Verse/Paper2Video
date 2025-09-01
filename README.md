@@ -38,21 +38,11 @@ Different agent combinations can significantly affect the overall results.
 
 This method relies on external APIs and incurs monetary costs—typically within a few dollars, depending on the chosen API provider.
 
-
-
-
-
-
-
-
-
-
-
 ## Case Study 
 <table border="0" style="width:100%; text-align:center; margin-top:20px;">
   <tr>
     <td>
-      <video src="https://github.com/user-attachments/assets/7e190b0c-dedd-47aa-9bee-4045f225d8e7"
+      <video src="https://github.com/user-attachments/assets/c4d802b9-01da-4cc1-9767-f3f2192df410"
              width="100%" controls autoplay loop></video>
       <p style="margin:4px 0; font-size:14px;">A Fast Algorithm for Particle Simulations, L. Greencard and V. Rokhlin, Journal of Computational Physics, 1987</p>
     </td>
@@ -126,13 +116,10 @@ output/(PDFNAME)/
 We use Docling (https://github.com/docling-project/docling), Manim (https://github.com/3b1b/manim) and PyMol-open-source (https://github.com/schrodinger/pymol-open-source) to create professional video clip. Thanks for their open-source work. We also use Wanx (https://wan.video/), Qwen-tts (https://qwenlm.github.io/blog/qwen-tts/) and Tavus (https://www.tavus.io/) as video generation tools.
 ## BibTex
 ```
-@misc{agenticir,
-      title={Preacher: Paper-to-Video Agentic System}, 
-      author={Jingwei Liu and Ling Yang and Hao Luo and Fan Wang and Hongyan Li and Mengdi Wang},
-      year={2025},
-      eprint={2508.09632},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2508.09632}, 
+@article{liu2025preacher,
+  title={Preacher: Paper-to-Video Agentic System},
+  author={Liu, Jingwei and Yang, Ling and Luo, Hao and Li, Fan Wang Hongyan and Wang, Mengdi},
+  journal={arXiv preprint arXiv:2508.09632},
+  year={2025}
 }
 ```
