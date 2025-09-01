@@ -38,23 +38,33 @@ Different agent combinations can significantly affect the overall results.
 
 This method relies on external APIs and incurs monetary costs—typically within a few dollars, depending on the chosen API provider.
 
+
+
+
+
+
+
+
+
+
+
 ## Case Study 
 <table border="0" style="width:100%; text-align:center; margin-top:20px;">
   <tr>
     <td>
-      <video src="https://github.com/user-attachments/assets/30700967-edd9-4923-bb20-cf2e9981c4b5"
+      <video src="https://github.com/user-attachments/assets/7e190b0c-dedd-47aa-9bee-4045f225d8e7"
              width="100%" controls autoplay loop></video>
       <p style="margin:4px 0; font-size:14px;">A Fast Algorithm for Particle Simulations, L. Greencard and V. Rokhlin, Journal of Computational Physics, 1987</p>
     </td>
     <td>
-      <video src="https://github.com/user-attachments/assets/3513c00e-519e-461a-b523-672ab6daf49c"
+      <video src="https://github.com/user-attachments/assets/98705c1b-6f6b-40c8-81a5-f44f5304f697"
              width="100%" controls autoplay loop></video>
       <p style="margin:4px 0; font-size:14px;">Aquaporins in Plants, Christophe Maurel and Yann Boursiac, et al, Physiol, 2015</p>
     </td>
   </tr>
   <tr>
     <td>
-      <video src="https://github.com/user-attachments/assets/499a8f1c-2086-44e1-95cb-83e73f8e476e"
+      <video src="https://github.com/user-attachments/assets/30c9fa22-05a9-405c-8199-147cf89bae0e"
              width="100%" controls autoplay loop></video>
       <p style="margin:4px 0; font-size:14px;">A reinforced lunar dynamo recorded by Chang'e-6 farside basalt, Shuhui Cai and Kaixian Qi, et al, Nature, 2024</p>
     </td>
