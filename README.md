@@ -1,4 +1,4 @@
-# Preacher: A Paper-to-Video Agentic System - ICCV 2025
+# Preacher: Paper-to-Video Agentic System - ICCV 2025
 
 We present [Preacher](https://arxiv.org/abs/2508.09632) — an intelligent agent system that automatically transforms scientific papers into video abstracts. Inspired by how humans create video summaries, it adopts a top-down, hierarchical planning paradigm to produce generation-model-compatible scripts for video-abstract production, then invokes the appropriate video-creation tools to carry out the entire process autonomously.
 
