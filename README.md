@@ -1,9 +1,6 @@
-# Preacher: A Paper-to-Video Agentic System
-[Jingwei Liu](https://scholar.google.com/citations?user=a4Mlw6QAAAAJ&hl=zh-CN&oi=ao)<sup>\*</sup>, [Ling Yang](https://yangling0818.github.io/)<sup>\*</sup>, [Hao Luo](https://scholar.google.com/citations?user=7QvWnzMAAAAJ&hl=zh-CN), [Fan Wang](https://scholar.google.com/citations?user=WCRGTHsAAAAJ&hl=zh-CN), [Hongyan Li](https://www.cis.pku.edu.cn/info/1177/1359.htm), [Mengdi Wang](https://ece.princeton.edu/people/mengdi-wang)
+# Preacher: A Paper-to-Video Agentic System - ICCV 2025
 
-[Paper](https://arxiv.org/abs/2508.09632)
-
-We present Preacher—an intelligent agent system that automatically transforms scientific papers into video abstracts. Inspired by how humans create video summaries, it adopts a top-down, hierarchical planning paradigm to produce generation-model-compatible scripts for video-abstract production, then invokes the appropriate video-creation tools to carry out the entire process autonomously.
+We present [Preacher](https://arxiv.org/abs/2508.09632) — an intelligent agent system that automatically transforms scientific papers into video abstracts. Inspired by how humans create video summaries, it adopts a top-down, hierarchical planning paradigm to produce generation-model-compatible scripts for video-abstract production, then invokes the appropriate video-creation tools to carry out the entire process autonomously.
 
 ## Quick Start
 ### Installation
