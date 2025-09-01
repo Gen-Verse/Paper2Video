@@ -75,6 +75,7 @@ Preacher operates in four iterative phases:
 </p>
  
   3. Video Generation – Calls the best engine (Manim, Wanxiang, Tavus, etc.) to produce visuals and audio. The evaluator agent evaluates the output of each stage and schedules regeneration for any deliverables that do not meet the criteria.
+
 <p align="center">
   <img src="assets/workflow.png" alt="workflow" width="70%">
 </p>
