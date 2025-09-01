@@ -59,7 +59,7 @@ This method relies on external APIs and incurs monetary costs—typically within
       <p style="margin:4px 0; font-size:14px;">A reinforced lunar dynamo recorded by Chang'e-6 farside basalt, Shuhui Cai and Kaixian Qi, et al, Nature, 2024</p>
     </td>
     <td>
-      <video src="https://github.com/user-attachments/assets/6a4aa0d6-f6c2-4db5-b31e-5c2fadaf6e8f"
+      <video src="https://github.com/user-attachments/assets/7e190b0c-dedd-47aa-9bee-4045f225d8e7"
              width="100%" controls autoplay loop></video>
       <p style="margin:4px 0; font-size:14px;">On the Existence of Hermitian-Yang-Mills Connections in Stable Vector Bundles, K Uhlenbeck and ST Yau, Comm. Pure Appl. Math, 1986</p>
     </td>
