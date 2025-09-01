@@ -1,0 +1,35 @@
+{
+  "low_examples": [
+    {
+      "scenario": "The Hemispheric Dichotomy",
+      "time_cost": "8 seconds",
+      "style": "General Video styles",
+      "audio_content": "We can see the Moon's hemispheric dichotomy—the stark contrast between the heavily cratered, sparsely mare-covered far side and the near side with its extensive maria (dark volcanic plains).",
+      "source": "Real_photo",
+      "prompt": "Moon near side far side comparison LROC high resolution maria highlands contrast (Adding '8K resolution' helps)"
+    },
+    {
+      "scenario": "The significance of the lunar dynamo",
+      "time_cost": "8 seconds",
+      "style": "Talking Heads",
+      "audio_content": "We must notice the importance of understanding the lunar dynamo for uncovering the Moon's deep interior structure, thermal history, and surface environment.",
+      "source": "AI-generated",
+      "prompt": "A professional scientist in a well-lit studio setting, wearing a blazer and tie, with a dynamic animated background showing the Moon and magnetic field lines schematics. The scientist has a confident and approachable demeanor, mid-30s, with short hair and glasses."
+    },
+    {
+      "scenario": "Previous palaeomagnetic investigations",
+      "time_cost": "8 seconds",
+      "style": "Slides",
+      "audio_content": "This is the picture from the original paper, which means a lot.",
+      "source": "Fig.1",
+      "prompt": "Previous palaeomagnetic investigations using samples from Apollo and Chang'e-5 missions have revealed the Moon's magnetic history. However, these studies were limited to the nearside, leaving the farside largely unexplored."
+    }
+  ],
+  "high_examples": 
+    { "demand":"Answering with following format:",
+      "NAME": "Implications for Lunar Dynamo Evolution \n",
+      "SCENE": "Discussion on how the findings refine the understanding of the Moon's dynamo evolution and its prolonged magnetic activity. \n",
+      "TIME_ALLOCATION": "~10 seconds"
+    },
+  "MANIM_examples":"def animate(self, plan):\n\ngraph_axes = Axes(\n        x_range=[-3, 3, 1],\n        y_range=[-3, 3, 1],\n        x_length=3,\n        y_length=3,\n        axis_config={\"include_numbers\": True}\n    ).to_corner(DL, buff=0.8)\n\n    graph = graph_axes.plot(lambda x: x**2, color=BLUE)\n    graph_label = graph_axes.get_graph_label(graph, label=\"y = x^2\", x_val=1.5, direction=UP/2)\n\n    self.play(Create(graph_axes), Create(graph), Write(graph_label))\n\n    # Adding an animated point on the graph\n    dot = Dot().move_to(graph_axes.c2p(1, 1))\n    self.play(FadeIn(dot))\n\n    moving_dot = always_redraw(lambda: Dot(color=RED).move_to(graph_axes.c2p(1.5, 1.5**2)))\n    self.add(moving_dot)\n\n       arrow = always_redraw(lambda: Arrow(\n        start=graph_axes.c2p(1, 1),\n        end=graph_axes.c2p(1.5, 1.5**2),\n        buff=0.1,\n        color=YELLOW\n    ))\n\n    self.play(Create(arrow))\n    self.wait(3)"
+}

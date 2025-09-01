@@ -1,0 +1,43 @@
+GPT:
+  API_KEY: ""
+  MODEL: "gpt-4-turbo"
+  MAX_TOKENS: 300000
+  TEMPERATURE: 0.0
+
+LLAMA:
+  API_KEY: ""
+  MODEL: "llama3.1-405b"
+  MAX_TOKENS: 300000
+  TEMPERATURE: 0.0
+
+GPT4_AZ:
+  API_KEY: ""
+  ENDPOINT: ""
+  API_VERSION: "2024-05-01-preview"
+  MAX_TOKENS: 1000
+  MODEL: "gpt-4o"
+  TEMPERATURE: 0.0
+                
+GEMINI:
+  API_KEY: ""
+  MAX_TOKENS: 30000
+  MODEL: "gemini-2.0-flash"
+  TEMPERATURE: 0.0
+
+alibaba:
+  API_KEY: ""
+  VOICE: "loongstella"
+  VOICE_MODEL: "cosyvoice-v1"
+  T2V_MODEL: "wanx2.1-t2v-turbo"
+  T2I_MODEL: "wanx2.1-t2i-turbo"
+  VIDEO_SIZE: "1280*720"
+  IMAGE_SIZE: "1024*1024"
+
+Tavus:
+  API_KEY: ""
+  REP_ID: "rb91c99ba958"
+
+QWEN:
+  local_dir: ""
+
+
